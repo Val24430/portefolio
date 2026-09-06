@@ -1,3 +1,8 @@
+<?php
+// Redirige vers la version statique HTML. Remplacez si vous avez besoin de logique PHP.
+header('Location: index.html', true, 302);
+exit;
+
 <!doctype html>
 <html lang="fr">
 <head>
