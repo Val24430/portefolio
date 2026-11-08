@@ -12,15 +12,19 @@ document.addEventListener('DOMContentLoaded', ()=>{
   }
 
   // Reveal on scroll using IntersectionObserver
-  const io = new IntersectionObserver((entries)=>{
-    entries.forEach(entry => {
-      if(entry.isIntersecting){
-        entry.target.classList.add('visible');
-        io.unobserve(entry.target);
-      }
-    });
-  },{threshold:0.12});
-  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+  if('IntersectionObserver' in window){
+    const revealElements = document.querySelectorAll('.reveal');
+    document.documentElement.classList.add('reveal-enabled');
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          entry.target.classList.add('visible');
+          io.unobserve(entry.target);
+        }
+      });
+    },{threshold:0.12});
+    revealElements.forEach(el=>io.observe(el));
+  }
 
   // Simple contact form validation (non-sending placeholder)
   const form = document.getElementById('contact-form');
