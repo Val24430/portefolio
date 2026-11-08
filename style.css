@@ -50,7 +50,7 @@ h2{margin:0 0 12px}
 .skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
 .skill-card{padding:12px;background:rgba(255,255,255,0.02);border-radius:10px}
 .skill-bar{height:10px;background:rgba(255,255,255,0.03);border-radius:8px;overflow:hidden;margin:8px 0}
-.skill-bar span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-2));border-radius:8px}
+.skill-bar span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),#8fe9c9);border-radius:8px}
 
 .projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
 .project-card{background:linear-gradient(180deg,rgba(255,255,255,0.01),transparent);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:transform .25s ease,box-shadow .25s ease}

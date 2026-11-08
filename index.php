@@ -39,14 +39,14 @@ exit;
 			<div class="hero-inner">
 				<div class="hero-text">
 					<h1>Bonjour, je suis <span class="name">Valentin Bonnelie</span></h1>
-					<p class="lead">Étudiant en BTS SIO — Option [SISR / SLAM]</p>
+					<p class="lead">Étudiant en BTS SIO — Option SLAM</p>
 					<p class="intro">Je construis des solutions informatiques robustes et apprends constamment de nouvelles technologies. Ce portfolio présente mon parcours, mes projets, mes stages et mes compétences.</p>
 					<div class="hero-ctas">
 						<a class="btn primary" href="#projects">Découvrir mon portfolio</a>
 						<a class="btn" href="assets/CV-[PRENOM]-[NOM].pdf" download>Télécharger mon CV</a>
 					</div>
 					<div class="socials">
-						<a href="#" aria-label="GitHub">GitHub</a>
+						<a href="https://github.com/Val24430" aria-label="GitHub">GitHub</a>
 						<a href="#" aria-label="LinkedIn">LinkedIn</a>
 					</div>
 				</div>
@@ -61,11 +61,11 @@ exit;
 			<div class="about-grid">
 				<div>
 					<h3>Parcours scolaire</h3>
-					<p>[Parcours scolaire ici — utilisez des placeholders]</p>
+					<p>J'ai choisi de m'orienter vers un bac STI2D (Sciences et Technologies de l'Industrie et du Développement Durable), avec l'option SIN (Systèmes d'Information et Numérique), afin de découvrir le domaine de l'informatique et du numérique. Ce qui ma orienter ver le BBTS SIO</p>
 					<h3>Pourquoi le BTS SIO</h3>
-					<p>[Motivations]</p>
+					<p>J'ai choisi le BTS SIO option SLAM parce que je suis intéressé par l'informatique, que j'aime la programmation et apprendre à créer des applications et des sites web, et que j'aime être créatif et trouver des solutions à différents problèmes.</p>
 					<h3>Option</h3>
-					<p>[SISR / SLAM]</p>
+					<p>[SLAM]</p>
 					<h3>Objectifs professionnels</h3>
 					<p>[Objectifs]</p>
 				</div>
@@ -77,28 +77,19 @@ exit;
 
 		<section id="skills" class="skills reveal">
 			<h2>Compétences</h2>
-			<p class="muted">Sélectionnez votre option et ajustez les compétences.</p>
+			<p class="muted">Mes compétences en développement web, Linux et ligne de commande.</p>
 			<div class="skills-grid">
-				<!-- Example skill card, duplicate & edit as needed -->
 				<div class="skill-card">
-					<h4>Administration systèmes</h4>
-					<div class="skill-bar" aria-hidden="true"><span style="width:70%"></span></div>
-					<p class="level">Intermédiaire</p>
+					<h4>Développement web</h4>
+					<p class="level">HTML, CSS et JavaScript</p>
 				</div>
 				<div class="skill-card">
-					<h4>Réseaux</h4>
-					<div class="skill-bar" aria-hidden="true"><span style="width:75%"></span></div>
-					<p class="level">Intermédiaire</p>
+					<h4>Ligne de commande</h4>
+					<p class="level">Commandes de base sous Linux</p>
 				</div>
 				<div class="skill-card">
 					<h4>Linux</h4>
-					<div class="skill-bar" aria-hidden="true"><span style="width:80%"></span></div>
-					<p class="level">Bonnes bases</p>
-				</div>
-				<div class="skill-card">
-					<h4>Virtualisation</h4>
-					<div class="skill-bar" aria-hidden="true"><span style="width:60%"></span></div>
-					<p class="level">Notions pratiques</p>
+					<p class="level">Notions de base</p>
 				</div>
 			</div>
 		</section>
@@ -107,26 +98,23 @@ exit;
 			<h2>Projets</h2>
 			<p class="muted">Minimum 4 projets — utilisez les placeholders et remplacez les contenus.</p>
 			<div class="projects-grid">
-				<!-- Project card template -->
 				<article class="project-card">
-					<img src="assets/project-1.svg" alt="Capture du projet [PROJET]">
+					<img src="assets/project-1.svg" alt="Projet Latice">
 					<div class="project-body">
-						<h3>[PROJET 1]</h3>
-						<p class="proj-desc">Brève description du projet.</p>
-						<p class="proj-meta"><strong>Technologies :</strong> [TECHNOLOGIES]</p>
-						<details>
-							<summary>Plus d'informations</summary>
-							<p><strong>Difficultés :</strong> [DIFFICULTÉS]</p>
-							<p><strong>Solutions :</strong> [SOLUTIONS]</p>
-							<p><strong>Ce que j'ai appris :</strong> [APPRENTISSAGES]</p>
-							<p><a href="#" target="_blank" rel="noopener">Voir sur GitHub</a></p>
-						</details>
+						<h3>Latice</h3>
+						<p class="proj-desc">Développement d'un jeu en Java, organisé autour du plateau, des joueurs, des tuiles et de l'interface.</p>
+						<p class="proj-meta"><strong>Technologie :</strong> Java</p>
+						<p><a href="https://github.com/Val24430/Latice/tree/main/Latice-master/Latice-master/src/main" target="_blank" rel="noopener noreferrer">Voir le projet sur GitHub</a></p>
 					</div>
 				</article>
-				<!-- Duplicate minimal cards to reach 4 -->
 				<article class="project-card">
-					<img src="assets/project-2.svg" alt="Capture du projet [PROJET]">
-					<div class="project-body"><h3>[PROJET 2]</h3><p class="proj-desc">Description...</p></div>
+					<img src="assets/project-2.svg" alt="Projet de mini-jeux en Python">
+					<div class="project-body">
+						<h3>Mini-jeux en Python</h3>
+						<p class="proj-desc">Réalisation d'une application regroupant plusieurs jeux, dont le morpion, le jeu de devinettes et le jeu des allumettes, avec gestion des profils et des scores.</p>
+						<p class="proj-meta"><strong>Technologie :</strong> Python</p>
+						<p><a href="https://github.com/Val24430/Python-projet-Sae/tree/main/SAE-Besoin-client" target="_blank" rel="noopener noreferrer">Voir le projet sur GitHub</a></p>
+					</div>
 				</article>
 				<article class="project-card">
 					<img src="assets/project-3.svg" alt="Capture du projet [PROJET]">
@@ -143,10 +131,10 @@ exit;
 			<h2>Stages & Expériences</h2>
 			<div class="timeline">
 				<div class="timeline-item">
-					<time>MM/YYYY — MM/YYYY</time>
-					<h3>[ENTREPRISE]</h3>
-					<p><strong>Poste :</strong> [POSTE]</p>
-					<p><strong>Missions :</strong> [MISSIONS]</p>
+					<time>Stage</time>
+					<h3>Orange</h3>
+					<p><strong>Poste :</strong> Technicien</p>
+					<p><strong>Missions :</strong> Réparation de fibre optique et configuration de routeurs.</p>
 				</div>
 			</div>
 		</section>
@@ -154,11 +142,11 @@ exit;
 		<section id="veille" class="veille reveal">
 			<h2>Veille technologique</h2>
 			<article class="veille-item">
-				<h3>[SUJET DE VEILLE]</h3>
-				<p><strong>Problématique :</strong> [PROBLÉMATIQUE]</p>
-				<p><strong>Sources :</strong> [SOURCES]</p>
-				<p><strong>Résumé :</strong> [RÉSUMÉ]</p>
-				<p class="muted">Date : [DATE]</p>
+				<h3>Le développement web</h3>
+				<p><strong>Problématique :</strong> Comment les nouvelles technologies et les bonnes pratiques améliorent-elles la création de sites web ?</p>
+				<p><strong>Sources :</strong> Documentation MDN, blogs spécialisés et actualités du développement web.</p>
+				<p><strong>Résumé :</strong> Ma veille porte sur les évolutions du développement web, notamment HTML, CSS et JavaScript, ainsi que sur l'accessibilité, l'adaptation aux mobiles et les performances des sites.</p>
+				<p class="muted">Date : 2026</p>
 			</article>
 		</section>
 
@@ -210,15 +198,15 @@ exit;
 				<button type="submit" class="btn primary">Envoyer</button>
 			</form>
 			<div class="contact-info">
-				<p>Email : <a href="mailto:contact@[DOMAIN]">contact@[DOMAIN]</a></p>
+				<p>Email : <a href="mailto:contact@[DOMAIN]">val.bonnelie@gmail.com</a></p>
 				<p>GitHub / LinkedIn : <a href="#">Voir profils</a></p>
 			</div>
 		</section>
 	</main>
 
 	<footer class="site-footer">
-		<p>Valentin Bonnelie — BTS SIO [SISR/SLAM] — 2026</p>
-		<p><a href="#">GitHub</a> • <a href="#">LinkedIn</a></p>
+		<p>Valentin Bonnelie — BTS SIO [SLAM] — 2026</p>
+		<p><a href="https://github.com/Val24430">GitHub</a> • <a href="#">LinkedIn</a></p>
 	</footer>
 </body>
 </html>
